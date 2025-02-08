@@ -1,0 +1,51 @@
+:root {
+  --white: #ffffff;
+  --transparent: #00000000;
+  --black: #000000;
+  --green: #65bb96;
+  --blue: #164193;
+  --blue2: #164193b5;
+  --title: 64px;
+  --subtitle: 40px;
+  --big-p: 24px;
+  --p: 20px;
+  --middle-p: 18px;
+  --small-p: 16px;
+  --desktop-padding: 5vw;
+  --mobile-padding: 5vw;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--white);
+  margin: 0rem;
+  color: var(--black);
+  font-family: "Inter", serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+button,
+div,
+a {
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+}
